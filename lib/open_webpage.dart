@@ -12,8 +12,8 @@ class OpenWebPageUrl extends StatelessWidget {
         statusBarColor: Colors.transparent,
     ),
     child: Scaffold(
-      appBar: AppBar(title: Text("AppSource")),
-      body: WebViewWebPage(url: "https://www.appsource.xyz"),
+      appBar: AppBar(title: Text("Application Management")),
+      body: WebViewWebPage(url: "https://servicedesk.roff.pt/suporte"),
     )
     );
   }
